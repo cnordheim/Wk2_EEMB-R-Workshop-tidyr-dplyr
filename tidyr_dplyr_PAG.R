@@ -1,6 +1,5 @@
 #basic R and tidyverse indexing etc....
 #created PAG 11 Jan 2021
-##Caitlin Notes
 
 #load tidyverse
 #install.packages("tidyverse")
