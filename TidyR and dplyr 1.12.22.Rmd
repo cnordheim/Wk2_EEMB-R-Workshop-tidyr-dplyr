@@ -1,0 +1,27 @@
+---
+title: "TidyR and dplyr"
+author: "Patrick Green UCSB R Seminar W22"
+date: "1/12/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+load tidyverse
+```{r}
+#install.packages("tidyverse")
+library(tidyverse)
+```
+
+Set working directory to wherever you have your data (NA- working in a project)
+```{r}
+basic.mongooses <- read.csv("mongooses.csv")
+mongooses <- as_tibble(read.csv("mongooses.csv"))
+```
+
+```{r}
+
+```
+
